@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="221.0" style="-fx-background-color: white;">
+         <children>
+            <ImageView fitHeight="82.0" fitWidth="126.0" layoutX="39.0" layoutY="148.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../img/logo.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="38.0" layoutY="248.0" text="(88) 9.98164-6938" textFill="#9823c6">
+               <font>
+                  <Font name="Segoe UI Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="24.0" layoutY="267.0" text="ayrtonfilho12345@gmail.com" textFill="#9823c6">
+               <font>
+                  <Font name="Segoe UI" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="59.0" layoutY="228.0" text="Contato do Suporte" textFill="#9823c6">
+               <font>
+                  <Font name="Segoe UI" size="10.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="400.0" prefWidth="418.0" style="-fx-background-color: #9823C6;">
+         <children>
+            <Label layoutX="52.0" layoutY="87.0" text="Área de Login" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Bold" size="28.0" />
+               </font></Label>
+            <Label layoutX="53.0" layoutY="157.0" text="Usuário:" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="66.0" layoutY="204.0" text="Senha:" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Bold" size="18.0" />
+               </font>
+            </Label>
+            <PasswordField layoutX="136.0" layoutY="198.0" prefHeight="34.0" prefWidth="212.0" />
+            <TextField layoutX="136.0" layoutY="151.0" prefHeight="34.0" prefWidth="212.0" />
+            <Button layoutX="285.0" layoutY="247.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="63.0" style="-fx-background-color: white; -fx-background-radius: 10px;" text="Entrar" textFill="#9823c6">
+               <font>
+                  <Font name="Segoe UI" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="159.0" layoutY="336.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="116.0" style="-fx-background-color: #FFFF00; -fx-background-radius: 10px;" text="Cadastre-se" textFill="#2b2b2b">
+               <font>
+                  <Font name="Segoe UI Bold" size="13.0" />
+               </font>
+            </Button>
+            <Label layoutX="168.0" layoutY="316.0" text="Não é um membro?" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="11.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+   </children>
+</HBox>
