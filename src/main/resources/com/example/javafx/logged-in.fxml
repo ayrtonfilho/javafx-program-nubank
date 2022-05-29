@@ -5,40 +5,43 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="525.0" prefWidth="800.0" style="-fx-background-color: #9823C6;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx.LoggedInController">
    <children>
-      <AnchorPane prefHeight="67.0" prefWidth="600.0">
+      <AnchorPane prefHeight="67.0" prefWidth="600.0" style="-fx-background-color: #fff;">
          <children>
-            <ImageView fitHeight="31.0" fitWidth="74.0" layoutX="34.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="43.0" fitWidth="95.0" layoutX="27.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../../img/logo.png" />
+                  <Image url="@logo.png" />
                </image>
             </ImageView>
-            <Button layoutX="506.0" layoutY="20.0" mnemonicParsing="false" style="-fx-background-color: #9823C6;" text="Fechar Sistema" textFill="WHITE">
+            <Button fx:id="button_logout" layoutX="663.0" layoutY="21.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="114.0" style="-fx-background-color: #9823C6;" text="Fechar Sistema" textFill="WHITE">
                <font>
-                  <Font size="10.0" />
+                  <Font name="Segoe UI Bold" size="12.0" />
                </font>
             </Button>
          </children>
       </AnchorPane>
-      <AnchorPane prefHeight="347.0" prefWidth="600.0" style="-fx-background-color: #9823C6;">
+      <AnchorPane prefHeight="467.0" prefWidth="800.0" style="-fx-background-color: #9823C6;">
          <children>
-            <Label layoutX="31.0" layoutY="34.0" text="Olá, username!" textFill="WHITE">
+            <Label fx:id="label_welcome" layoutX="30.0" layoutY="30.0" text="Olá, username!" textFill="WHITE">
                <font>
-                  <Font name="Segoe UI Bold" size="35.0" />
+                  <Font name="Segoe UI Bold" size="38.0" />
                </font>
             </Label>
-            <Label layoutX="31.0" layoutY="77.0" text="Este é a página inicial do sistema. Aproveite!" textFill="WHITE">
+            <Label layoutX="31.0" layoutY="77.0" text="Esta é a página inicial do sistema. Aproveite!" textFill="WHITE">
                <font>
                   <Font size="17.0" />
                </font>
             </Label>
-            <Label layoutX="31.0" layoutY="144.0" text="Saldo Disponível: R$ 25.695,36" textFill="WHITE">
+            <Label layoutX="31.0" layoutY="127.0" prefHeight="17.0" prefWidth="232.0" text="Saldo Disponível: R$ 25.695,36" textFill="WHITE">
                <font>
-                  <Font name="Segoe UI Bold" size="14.0" />
+                  <Font name="Segoe UI Bold" size="15.0" />
                </font>
             </Label>
-            <Label layoutX="414.0" layoutY="306.0" text="Setor Responsável:" textFill="WHITE" />
+            <Label fx:id="label_sector" layoutX="30.0" layoutY="183.0" prefHeight="17.0" prefWidth="332.0" text="Setor Responsável: Administração" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font></Label>
          </children>
       </AnchorPane>
    </children>
