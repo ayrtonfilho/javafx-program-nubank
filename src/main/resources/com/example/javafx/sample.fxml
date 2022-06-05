@@ -14,7 +14,7 @@
                   <Image url="@logo.png" />
                </image>
             </ImageView>
-            <Label layoutX="68.0" layoutY="382.0" text="(88) 9.98164-6938" textFill="#9823c6">
+            <Label layoutX="69.0" layoutY="381.0" text="(88) x.xxxxx-xxxx" textFill="#9823c6">
                <font>
                   <Font name="Segoe UI Bold" size="15.0" />
                </font>
