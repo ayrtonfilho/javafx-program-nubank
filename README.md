@@ -5,7 +5,7 @@
 </div>
 
 <h3>🏆 Projeto Desenvolvido: </h3>
-<p>Este é um Sistema Desenvolvido com a linguagem Java, com intuito de aprimorar meu aprendizado sobre a tecnologia JavaFx, e, principalmente, ser capaz de apresentar soluções complexas.</p>
+<p>Este é um Sistema Desenvolvido com a linguagem Java, com intuito de aprimorar meu aprendizado sobre a tecnologia JavaFx, e, principalmente, ser capaz de desenvolver aplicações que possam auxiliar no cotidiano de mais pessoas.</p>
 
 
 <h3>🏗️ Tecnologias Usadas: </h3>
